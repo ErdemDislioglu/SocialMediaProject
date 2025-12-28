@@ -1,6 +1,8 @@
-server:
-  port: 9092
-
 spring:
-  mongodb:
-    uri: mongodb://erdem:root@127.0.0.1:27019/UserProfileDB?authSource=UserProfileDB
+  cloud:
+    config:
+      uri: "http://localhost:8888"
+  config:
+    import: "configserver:"
+  application:
+    name: user-application
