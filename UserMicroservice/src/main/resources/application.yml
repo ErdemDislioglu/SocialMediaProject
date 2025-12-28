@@ -1,2 +1,6 @@
 server:
-  port: 9091
+  port: 9092
+
+spring:
+  mongodb:
+    uri: mongodb://erdem:root@127.0.0.1:27019/UserProfileDB?authSource=UserProfileDB
