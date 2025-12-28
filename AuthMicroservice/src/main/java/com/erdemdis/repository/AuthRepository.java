@@ -1,7 +1,6 @@
 package com.erdemdis.repository;
 
 import com.erdemdis.entity.Auth;
-import org.jspecify.annotations.Nullable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

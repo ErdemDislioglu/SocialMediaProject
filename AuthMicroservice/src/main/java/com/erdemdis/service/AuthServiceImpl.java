@@ -5,7 +5,6 @@ import com.erdemdis.dto.request.RegisterRequestDto;
 import com.erdemdis.entity.Auth;
 import com.erdemdis.repository.AuthRepository;
 import lombok.RequiredArgsConstructor;
-import org.jspecify.annotations.Nullable;
 import org.springframework.stereotype.Service;
 
 @Service

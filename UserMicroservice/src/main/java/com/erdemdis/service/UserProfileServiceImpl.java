@@ -5,7 +5,6 @@ import com.erdemdis.document.UserProfile;
 import com.erdemdis.dto.request.CreateUserRequestDto;
 import com.erdemdis.repository.UserProfileRepository;
 import lombok.RequiredArgsConstructor;
-import org.jspecify.annotations.Nullable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
