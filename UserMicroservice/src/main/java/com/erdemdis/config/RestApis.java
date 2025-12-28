@@ -7,7 +7,7 @@ public class RestApis {
     public static final String VERSIONS="/v1";
 
 
-    public static final String USERPROFILE="/user-profile";
+    public static final String USERPROFILE=DEVELOPER+VERSIONS+"/user-profile";
 
 
     public static final String CREATE_USER="/create-user";

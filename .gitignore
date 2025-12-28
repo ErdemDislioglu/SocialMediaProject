@@ -41,3 +41,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore all Spring Boot config files
+**/*application*.yml
+
