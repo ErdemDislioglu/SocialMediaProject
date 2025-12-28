@@ -29,4 +29,13 @@ docker run -d --name mongodb -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB
 
     mongod:
     db.createUser({user: "erdem",pwd: "root",roles: ["readWrite","dbAdmin"]}) 
+```bash
+docker run --name microservice-redis -p 6379:6379 -d redis
+docker run --name microservice-redis -p 6379:6379 -d redis
+```
+
+```bash
+
+docker run  --name redis-gui -d -p 8001:8001 redislabs/redisinsight:1.14.0
+```
 
