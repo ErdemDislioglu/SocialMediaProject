@@ -23,6 +23,7 @@ public class UserProfileServiceImpl {
     }
 
     public List<UserProfile> gelAll() {
+
         return repository.findAll();
     }
 }
